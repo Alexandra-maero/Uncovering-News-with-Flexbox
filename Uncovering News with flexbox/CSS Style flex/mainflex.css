@@ -32,7 +32,7 @@
 .second-ad{
     padding-top: 100px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
     .main-content{
         width: 100%;
     }
@@ -44,8 +44,23 @@
         display: none;
     }
     .principal{
-        width: 300px;
+        width: 70%;
         height: auto;
         box-sizing: border-box;
     }
+    .title1{
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+
+.footer{
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #537373;
+    color: #ffffff;
+    text-align: center;
 }
