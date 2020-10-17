@@ -1,0 +1,75 @@
+.container{
+    width: 90%;
+    display: flex;
+    overflow: hidden;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: row;
+    align-content: center;
+}
+#boxes .most{
+    font-size: 25px;
+    font-style: italic;
+    color: #537373;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.line{
+    border-bottom: solid 3px #BF8664;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.box1, .box2, .box3, .box4, a{
+    color: #000723;
+    text-decoration: none;
+}
+.box1, .box2, .box3, .box4, a:hover{
+    color:  #BF8664;
+    font-weight: bold;
+}
+.box1{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+.box2{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+.box3{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+.box4{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+.boximg{
+    width: 60%;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+        padding: 0px;
+        margin-left: 40px;
+    }
+    .line{
+        border-bottom: solid 3px #BF8664;
+        margin-left: 60px;
+        margin-right: 40px;
+    }
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+}

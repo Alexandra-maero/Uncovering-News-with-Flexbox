@@ -1,0 +1,51 @@
+.main-content{
+    display: flex;
+    margin-left: 40px;
+}
+.title1{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.news{
+    color: #000723;
+    text-decoration: none;
+}
+.news:hover{
+    color:  #BF8664;
+    font-weight: bold;
+}
+.left{
+    flex: 2;
+    margin-left: 20px;
+    padding-right: 50px;
+}
+.right{
+    flex: 1;
+    margin-right: 0px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.principal{
+    width: 700px;
+    height: auto;
+}
+.second-ad{
+    padding-top: 100px;
+}
+@media only screen and (max-width: 600px) {
+    .main-content{
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .right{
+        display: none;
+    }
+    .principal{
+        width: 300px;
+        height: auto;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,32 @@
+
+#boxes .must{
+    font-size: 25px;
+    font-style: italic;
+    color: #537373;
+}
+.line{
+    border-bottom: solid 3px #BF8664;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 22%;
+    padding: 10px;
+}
+.box a{
+    color: #000723;
+    text-decoration: none;
+}
+.box a:hover{
+    color:  #BF8664;
+    font-weight: bold;
+}
+.box .boximg{
+    max-width: 100%;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
