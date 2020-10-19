@@ -24,6 +24,7 @@
 .colimg{
     width: 10%;
     float: left;
+    cursor: pointer
 }
 .column1{
     flex: 1;
@@ -51,6 +52,7 @@
 .right-side{
     float: right;
     padding-right: 80px;
+    cursor: pointer
 }
 @media only screen and (max-width: 1000px){
     .container1{

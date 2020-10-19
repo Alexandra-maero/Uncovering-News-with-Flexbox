@@ -14,12 +14,12 @@
     color:  #BF8664;
     font-weight: bold;
 }
-.left{
+.news-left{
     flex: 2;
     margin-left: 20px;
     padding-right: 50px;
 }
-.right{
+.advertisement-right{
     flex: 1;
     margin-right: 0px;
     padding-top: 30px;
@@ -28,19 +28,16 @@
 .principal{
     width: 700px;
     height: auto;
+    cursor: pointer
 }
 .second-ad{
     padding-top: 100px;
 }
-@media only screen and (max-width: 1024px) {
-    .main-content{
-        width: 100%;
-    }
-    .left{
-        width: 100%;
+@media only screen and (max-width: 780px) {
+    .news-left{
         box-sizing: border-box;
     }
-    .right{
+    .advertisement-right{
         display: none;
     }
     .principal{
