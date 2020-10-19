@@ -12,7 +12,6 @@ li, .nav, .title{
     text-decoration: none;
     background-color: #537373;
 }
-
 .title{
     font-size: 35px;
 }
@@ -51,4 +50,3 @@ li{
         display: none;
     }
 }
-
