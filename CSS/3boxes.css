@@ -10,7 +10,7 @@
     flex-direction: row;
     align-content: center;
 }
-#boxes .most{
+.most{
     font-size: 25px;
     font-style: italic;
     color: #537373;

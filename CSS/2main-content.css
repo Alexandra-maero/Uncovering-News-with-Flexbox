@@ -53,6 +53,14 @@
         overflow-x: hidden;
     }
 }
+@media only screen and (max-width: 1146px){
+    .advertisement-right{
+        display: none;
+    }
+    .news-left{
+        padding-right: 0px;
+    }
+}
 .footer{
     padding: 20px;
     margin-top: 50px;
