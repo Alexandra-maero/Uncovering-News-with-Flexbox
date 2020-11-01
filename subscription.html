@@ -47,41 +47,51 @@
     </header>
     <section class="main-content">
         <div class="wrapper">
-            <form class='form'>
-            <h2 class="title-form">
-                SUBSCRIPTION FORM
-            </h2>
-            <div class="error"></div>
-            <div class="contact-form" id="form">
-                <div class="input-fields1">
-                    <label for="name" class="label">Full Name</label>
-                    <input type="text" class="input" placeholder="Full Name" required>  
-                    <label for="password" class="label">Password</label>                  
-                    <input type="text" class="input" placeholder="Password" required>    
-                    <label for="age" class="label">Age</label>                
-                    <input type="text" class="input" placeholder="Age" required>    
-                    <label for="adress" class="label">Adress</label>                
-                    <input type="text" class="input" placeholder="Adress" required> 
-                    <label for="postal" class="label">Postal Code</label>                   
-                    <input type="text" class="input" placeholder="Postal Code" required>        
+            <form class='form' id="form">
+                <h2 class="title-form">
+                    SUBSCRIPTION FORM
+                </h2>
+                <div class="error"></div>
+                <div class="contact-form">
+                    <div class="input-fields1">
+                        <label for="name" class="label">Full Name</label>
+                        <input id="name" class="input" placeholder="Full Name">  
+                        <small id="name-error" class="small"></small>
+                        <label for="password" class="label">Password</label>                  
+                        <input id="password" class="input" placeholder="Password"> 
+                        <small class="small"></small>   
+                        <label for="age" class="label">Age</label>                
+                        <input id="age" class="input" placeholder="Age">    
+                        <small class="small"></small>
+                        <label for="adress" class="label">Adress</label>                
+                        <input id="adress" class="input" placeholder="Adress"> 
+                        <small class="small"></small>
+                        <label for="postal" class="label">Postal Code</label>                   
+                        <input id="postal" class="input" placeholder="Postal Code"> 
+                        <small class="small"></small>       
+                    </div>
+                    <div class="input-fields2">
+                        <label for="email" class="label">Email</label>
+                        <input id="email" class="input" placeholder="Email">
+                        <small class="small"></small>
+                        <label for="repeat" class="label">Repeat Password</label>
+                        <input id="repeat" class="input" placeholder="Repeat Password">
+                        <small class="small"></small>
+                        <label for="phone" class="label">Phone Number</label>
+                        <input id="phone" class="input" placeholder="Phone Number">
+                        <small class="small"></small>
+                        <label for="city" class="label">City</label>
+                        <input id="city" class="input" placeholder="City">
+                        <small class="small"></small>
+                        <label for="dni" class="label">DNI</label>
+                        <input id="dni" class="input" placeholder="DNI">
+                        <small class="small"></small>
+                    </div> 
                 </div>
-                <div class="input-fields2">
-                    <label for="email" class="label">Email</label>
-                    <input type="text" class="input" placeholder="Email" required>
-                    <label for="repeat" class="label">Repeat Password</label>
-                    <input type="text" class="input" placeholder="Repeat Password" required>
-                    <label for="phone" class="label">Phone Number</label>
-                    <input type="text" class="input" placeholder="Phone Number" required>
-                    <label for="city" class="label">City</label>
-                    <input type="text" class="input" placeholder="City" required>
-                    <label for="dni" class="label">DNI</label>
-                    <input type="text" class="input" placeholder="DNI" required>
-                </div> 
-            </div>
-            <button type="submit" class="btn" class="submit">
-                Send
-            </button>
-        </form>
+                <button type="submit" class="btn" class="submit">
+                    Send
+                </button>
+            </form>
         </div>
     </section>
     <section class="footer">
