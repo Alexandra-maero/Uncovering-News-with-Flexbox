@@ -114,6 +114,9 @@ window.onload = function(e){
             document.getElementById('dni-error').textContent = 'The DNI must contain 7 or 8 characters';
         }
     })
+    bttn.addEventListener('blur', function(e){
+        alert ('sdaskjdhasd')
+    })
 }
 
 
