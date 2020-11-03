@@ -15,6 +15,9 @@ li, .nav, .title{
 .title{
     font-size: 35px;
 }
+#title-1{
+    color:  #F2F2EF;
+}
 header{
     display: flex;
     justify-content: space-between;
